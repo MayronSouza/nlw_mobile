@@ -20,11 +20,17 @@ function Landing() {
         <Text></Text>
       </Text>
       <View style={styles.buttonsContainer}>
-        <TouchableOpacity onPress={() => {}} style={[styles.button, styles.buttonPrimary]}>
+        <TouchableOpacity
+          onPress={() => {}}
+          style={[styles.button, styles.buttonPrimary]}
+        >
           <Image source={studyIcon}/>
           <Text style={styles.buttonText}>Estudar</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => {}} style={[styles.button, styles.buttonSecondary]}>
+        <TouchableOpacity
+          onPress={() => {}}
+          style={[styles.button, styles.buttonSecondary]}
+        >
           <Image source={giveClassesIcon}/>
           <Text style={styles.buttonText}>Dar aulas</Text>
         </TouchableOpacity>
